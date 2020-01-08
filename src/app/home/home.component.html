@@ -1,0 +1,50 @@
+<app-weather inputVariable="this is value impored from main app module"></app-weather>
+
+<div class="d-flex p-2 bd-highlight">
+  <div class="card p-2 m-2">
+    <img [routerLink]="['/newsletter', 1]" src="https://www.lidl.sk/bundles/cakecomponents/dist/images/brand__default.svg" alt="Slovakia (SK)" class="brand__image brand__image--bordered">
+    <div class="card-body">
+      <h5 class="card-title">Leták Lidl</h5>
+      <a href="#" class="btn btn-primary" [routerLink]="['/newsletter', 1]">Zobraziť Leták</a>
+    </div>
+  </div>
+
+  <div class="card p-2 m-2">
+    <img [routerLink]="['/newsletter', '2']" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAV1BMVEX////jAA/iAAD1uLnxn6LtgYPqYmX96+z51tf97u7jAAXjAAvwmJrtfH/tfoDfAAD629zqZmjuhoj75OXkJSvlMjf/+vvrbnHteHvwlZjui434zc7nRUl/6xitAAACtklEQVR4nO3d2W7bMBBGYVlZnFhpHTtbm+T9n7NooeYi0cIZShT/yTn3NPRhSMMQZLtpiIiIiIiIiIiIiIiIiIiIiKhwDxf1db+o8OLY1tbxbllhu6ut9hIhwgFht/XZ6+vWEnaPp+saOj11Kwnb06Kv6e/criW8XvQ1/V0hdISwbAg9ISwbQk8Iy4bQE8KyIfT0fYX7W0v7fpVp0e3D84bCve0m47FfZlv08uVqSgptN6jaftmhM6z58fVqQgnbnwNXE0k4CIwkHAYGEg6dwVDCkQnGEY4CowjHtmgY4QQwhnAKGEI4fgaDCCcnGEE4A9QXTm/RAMK5CcoL54HiwgSgtnD2DKoLUyYoLUwDCguTtmgjLEycoK4wdYKywuQJqgrTJygqtAAlhYYt2kgKbUBBoRGoJzSdwb+pCa0TlBOaJ6gmdAC1hB6glNAFVBLa32T+pSP0TVBI6JygjtANVBF6t2ijIswAagj9W7TREGYBFYQ5W7SpWNj9F+ZNUOHZxF+ZV8MTtJ4Qlg2hJ4RlQ+hp2c80vzOvpqiws/TxmSbzZ0nqn+Ehkygg7PKICsJdFlFCmEXUEOYQRYQZRBWhnygjdBN1hF6ikNBJVBL6iFJCF1FL6CGKCR1ENaGdKCc0E/WEVqKg0EhUFNqIkkITUVNoIYoKDURVYTpRVphM1BWmEoWFiURlYRpRWphE1BamEMWFCUR14TxRXjhL1BfOEQMIZ4gRhNPEEMJJYgzhFDGIcIIYRThODCMcJcYRjhEDCUeIkYTDxFDCQWL9z+rbFr1uKXy+sdUvsy162/K3oDcKoSeEZUPoCWHZEHpCWDaEnhCWDaGn7yIM/1+y3dP5qobO74eVhNX8p/Nht5awqhAi/Cy03TYsUuaXiT91f3dZXW+LComIiIiIiIiIiIiIiIiIiIgooT+AUFcSn68VcQAAAABJRU5ErkJggg==" >
+    <div class="card-body">
+      <h5 class="card-title">Leták Kaufland</h5>
+      <a href="#" class="btn btn-primary" [routerLink]="['/newsletter', 2]">Zobraziť Leták</a>
+    </div>
+  </div>
+
+
+  <div class="card p-2 m-2" style="width: 18rem;">
+    <img class="card-img-top" src="https://www.vsttractors.com/sites/default/files/2018-10/ViraajXT9045DI-slide.jpg"
+         alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  <div class="card p-2 m-2" style="width: 32rem;">
+    <img class="card-img-top" src="https://www.vsttractors.com/sites/default/files/2018-10/ViraajXT9045DI-slide.jpg"
+         alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio, eaque expedita impedit in iste labore maxime minima non porro possimus quisquam quos recusandae reprehenderit sequi similique sit tenetur ullam.</span><span>A ab accusamus accusantium amet debitis delectus eius eligendi, eveniet, excepturi fugiat harum impedit iure iusto labore laborum maxime nam natus neque nobis numquam perferendis quis repellat sint, voluptas voluptate.</span> quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+
+</div>
+
+
+<p>
+  <ngb-alert [dismissible]="false">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </ngb-alert>
+</p>
